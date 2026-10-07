@@ -1,6 +1,6 @@
-description,category,priority
-Laptop won't connect to Wi-Fi,Network,High
-Password reset needed,Account,Medium
-Printer isn't working,Hardware,Low
-VPN connection failed,Network,High
-Outlook won't open,Software,Medium
+id,description,category,resolution
+1,Laptop won't connect to Wi-Fi,Network,Restarted network adapter and reconnected to Wi-Fi
+2,Password reset needed,Account,Reset the user's password
+3,Printer isn't working,Hardware,Restarted the printer and reinstalled the printer driver
+4,VPN connection failed,Network,Restarted the VPN client and reconnected
+5,Outlook won't open,Software,Restarted Outlook and repaired the application

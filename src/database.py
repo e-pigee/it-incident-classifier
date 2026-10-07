@@ -9,5 +9,14 @@ password = os.getenv("POSTGRES_PASSWORD")
 connection = psycopg.connect(
     f"host=localhost port=5432 user=ticketiq_app dbname=ticketiq_db password={password}"
 )
-
 print("Successfully connected to PostgreSQL")
+
+cursor = connection.cursor()
+
+cursor.execute("SELECT * FROM tickets")
+all_tickets = cursor.fetchall()
+
+print(all_tickets)
+
+cursor.close()
+connection.close()
