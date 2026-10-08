@@ -1,6 +1,201 @@
-id,description,category,resolution
-1,Laptop won't connect to Wi-Fi,Network,Restarted network adapter and reconnected to Wi-Fi
-2,Password reset needed,Account,Reset the user's password
-3,Printer isn't working,Hardware,Restarted the printer and reinstalled the printer driver
-4,VPN connection failed,Network,Restarted the VPN client and reconnected
-5,Outlook won't open,Software,Restarted Outlook and repaired the application
+id,description,category,resolution,created_at
+1,Laptop won't connect to Wi-Fi,Network,Restarted network adapter and reconnected to Wi-Fi,2026-05-01 08:22:00
+2,Internet connection keeps dropping,Network,Restarted network adapter and reconnected to network,2026-05-03 09:15:00
+3,Computer cannot connect to office Wi-Fi,Network,Forgot the Wi-Fi network and reconnected,2026-05-05 10:41:00
+4,Ethernet connection stopped working,Network,Reseated network cable and restarted network adapter,2026-05-07 11:08:00
+5,Network is very slow,Network,Restarted network adapter and verified connection,2026-05-09 13:27:00
+6,Desktop lost internet access,Network,Restarted network adapter and restored connectivity,2026-05-11 14:19:00
+7,Wi-Fi disconnects every few minutes,Network,Restarted network adapter and reconnected to Wi-Fi,2026-05-13 08:53:00
+8,Cannot reach websites from workstation,Network,Flushed network settings and reconnected,2026-05-15 15:12:00
+9,Office computer has no network connection,Network,Restarted network adapter and verified network settings,2026-05-17 09:36:00
+10,Network connection failed after restart,Network,Reconnected workstation to the network,2026-05-19 10:44:00
+11,Laptop cannot find wireless network,Network,Restarted wireless adapter and reconnected,2026-05-21 12:18:00
+12,Internet stopped working on desktop,Network,Restarted network adapter and restored connectivity,2026-05-23 14:05:00
+13,User cannot connect to office network,Network,Verified network settings and reconnected the workstation,2026-05-25 08:47:00
+14,Wi-Fi signal keeps dropping,Network,Restarted network adapter and reconnected to Wi-Fi,2026-05-27 16:21:00
+15,Computer says no internet access,Network,Restarted network adapter and verified connectivity,2026-05-29 09:58:00
+16,Network cable is not working,Network,Reconnected the network cable and restarted the adapter,2026-05-31 11:34:00
+17,Workstation cannot access the internet,Network,Restarted network adapter and restored connectivity,2026-06-02 13:46:00
+18,Wireless connection is unavailable,Network,Restarted wireless adapter and reconnected,2026-06-04 10:17:00
+19,User reports intermittent network access,Network,Restarted network adapter and verified connection,2026-06-06 15:28:00
+20,Computer lost connection to network,Network,Reconnected workstation to the network,2026-06-08 09:12:00
+21,Office Wi-Fi stopped working,Network,Restarted network adapter and reconnected to Wi-Fi,2026-06-10 14:39:00
+22,Internet is unavailable on laptop,Network,Verified network settings and reconnected,2026-06-12 08:31:00
+23,Desktop cannot connect to Ethernet,Network,Reseated network cable and restarted network adapter,2026-06-14 11:52:00
+24,Network connection is unstable,Network,Restarted network adapter and verified connection,2026-06-16 13:24:00
+25,User cannot access the network,Network,Restarted network adapter and restored connectivity,2026-06-18 15:07:00
+26,Password reset needed,Account,Reset the user's password,2026-05-02 09:14:00
+27,User forgot their password,Account,Reset the user's password,2026-05-04 10:32:00
+28,Account is locked,Account,Unlocked the user account,2026-05-06 11:47:00
+29,User cannot sign in,Account,Reset the password and verified account access,2026-05-08 13:16:00
+30,Login credentials are not working,Account,Reset the user's password,2026-05-10 14:28:00
+31,Employee needs account unlocked,Account,Unlocked the user account,2026-05-12 08:39:00
+32,User forgot Windows password,Account,Reset the user's password,2026-05-14 09:51:00
+33,Account locked after failed attempts,Account,Unlocked the account,2026-05-16 15:23:00
+34,User cannot authenticate to workstation,Account,Reset the password and verified login,2026-05-18 10:06:00
+35,Employee needs a password change,Account,Reset the user's password,2026-05-20 12:41:00
+36,User account is locked out,Account,Unlocked the user account,2026-05-22 14:17:00
+37,Employee cannot log into computer,Account,Reset the password and verified login,2026-05-24 08:55:00
+38,User needs help resetting password,Account,Reset the user's password,2026-05-26 11:29:00
+39,Login failed after password change,Account,Reset the password and verified account access,2026-05-28 13:08:00
+40,User is locked out of account,Account,Unlocked the user account,2026-05-30 15:44:00
+41,Password has expired,Account,Reset the user's password,2026-06-01 09:27:00
+42,User cannot log into Windows,Account,Reset the password and verified login,2026-06-03 10:53:00
+43,Account locked after several attempts,Account,Unlocked the account,2026-06-05 12:35:00
+44,Employee forgot login password,Account,Reset the user's password,2026-06-07 14:12:00
+45,User credentials stopped working,Account,Reset the password and verified account access,2026-06-09 08:48:00
+46,User needs account unlocked,Account,Unlocked the user account,2026-06-11 11:21:00
+47,Password reset request from employee,Account,Reset the user's password,2026-06-13 13:57:00
+48,User cannot authenticate,Account,Reset the password and verified login,2026-06-15 15:19:00
+49,Employee is locked out of Windows,Account,Unlocked the account,2026-06-17 09:43:00
+50,User needs a new password,Account,Reset the user's password,2026-06-19 14:31:00
+51,Printer isn't working,Hardware,Restarted the printer and reinstalled the printer driver,2026-05-03 08:45:00
+52,Monitor has no display,Hardware,Reseated the display cable and restarted the monitor,2026-05-05 10:18:00
+53,Keyboard stopped working,Hardware,Reconnected the keyboard and replaced the batteries,2026-05-07 12:34:00
+54,Mouse is not responding,Hardware,Reconnected the mouse and replaced the batteries,2026-05-09 14:21:00
+55,Laptop screen is flickering,Hardware,Reseated the display connection and restarted the laptop,2026-05-11 09:37:00
+56,Docking station is not detecting monitors,Hardware,Reconnected the docking station and display cables,2026-05-13 11:49:00
+57,Printer is showing offline,Hardware,Restarted the printer and reconnected it to the network,2026-05-15 13:15:00
+58,Laptop will not power on,Hardware,Checked power connection and restarted the laptop,2026-05-17 15:42:00
+59,External monitor is not detected,Hardware,Reseated the display cable and restarted the workstation,2026-05-19 08:26:00
+60,Headset microphone is not working,Hardware,Reconnected the headset and verified device settings,2026-05-21 10:57:00
+61,Printer will not print,Hardware,Restarted the printer and reinstalled the printer driver,2026-05-23 12:13:00
+62,Second monitor stopped working,Hardware,Reseated the display cable and restarted the monitor,2026-05-25 14:48:00
+63,Keyboard is not responding,Hardware,Reconnected the keyboard and replaced the batteries,2026-05-27 09:19:00
+64,Mouse stopped responding,Hardware,Reconnected the mouse and replaced the batteries,2026-05-29 11:33:00
+65,Laptop display is blank,Hardware,Reseated the display connection and restarted the laptop,2026-05-31 13:56:00
+66,Dock is not detecting screens,Hardware,Reconnected the docking station and display cables,2026-06-02 15:24:00
+67,Printer cannot be reached,Hardware,Restarted the printer and reconnected it to the network,2026-06-04 08:52:00
+68,Laptop power button does nothing,Hardware,Checked power connection and restarted the laptop,2026-06-06 10:27:00
+69,Monitor is not detected,Hardware,Reseated the display cable and restarted the workstation,2026-06-08 12:41:00
+70,Headset audio is not working,Hardware,Reconnected the headset and verified device settings,2026-06-10 14:09:00
+71,Printer driver is not responding,Hardware,Restarted the printer and reinstalled the printer driver,2026-06-12 09:46:00
+72,Monitor keeps going black,Hardware,Reseated the display cable and restarted the monitor,2026-06-14 11:18:00
+73,Keyboard keys are not responding,Hardware,Reconnected the keyboard and replaced the batteries,2026-06-16 13:37:00
+74,Wireless mouse stopped working,Hardware,Reconnected the mouse and replaced the batteries,2026-06-18 15:51:00
+75,Laptop will not start,Hardware,Checked power connection and restarted the laptop,2026-06-20 10:05:00
+76,Outlook won't open,Software,Restarted Outlook and repaired the application,2026-05-04 09:22:00
+77,Application keeps crashing,Software,Restarted the application and repaired the installation,2026-05-06 11:14:00
+78,Software update failed,Software,Restarted the application and retried the update,2026-05-08 13:45:00
+79,Browser is not loading correctly,Software,Cleared browser cache and restarted the browser,2026-05-10 15:08:00
+80,Excel freezes when opening files,Software,Restarted Excel and repaired the application,2026-05-12 08:51:00
+81,Application is running slowly,Software,Restarted the application and cleared temporary files,2026-05-14 10:36:00
+82,Teams will not launch,Software,Restarted Teams and repaired the application,2026-05-16 12:19:00
+83,Program stopped responding,Software,Restarted the program and verified the installation,2026-05-18 14:57:00
+84,Software installation failed,Software,Repaired the installation and retried the setup,2026-05-20 09:43:00
+85,Application displays an error on startup,Software,Restarted the application and repaired the installation,2026-05-22 11:26:00
+86,Outlook crashes when opening,Software,Restarted Outlook and repaired the application,2026-05-24 13:52:00
+87,Application closes unexpectedly,Software,Restarted the application and repaired the installation,2026-05-26 15:17:00
+88,Chrome is not loading pages,Software,Cleared browser cache and restarted the browser,2026-05-28 08:34:00
+89,Excel stops responding,Software,Restarted Excel and repaired the application,2026-05-30 10:48:00
+90,Program takes too long to open,Software,Restarted the application and cleared temporary files,2026-06-01 12:31:00
+91,Teams application is not starting,Software,Restarted Teams and repaired the application,2026-06-03 14:16:00
+92,Software update will not install,Software,Restarted the application and retried the update,2026-06-05 09:07:00
+93,Application freezes during use,Software,Restarted the program and verified the installation,2026-06-07 11:39:00
+94,Program installation shows an error,Software,Repaired the installation and retried the setup,2026-06-09 13:24:00
+95,Outlook displays an error on startup,Software,Restarted Outlook and repaired the application,2026-06-11 15:03:00
+96,Browser keeps freezing,Software,Cleared browser cache and restarted the browser,2026-06-13 10:42:00
+97,Excel will not open correctly,Software,Restarted Excel and repaired the application,2026-06-15 12:55:00
+98,Teams keeps crashing,Software,Restarted Teams and repaired the application,2026-06-17 14:38:00
+99,Application is unresponsive,Software,Restarted the application and verified the installation,2026-06-19 08:29:00
+100,Software setup could not complete,Software,Repaired the installation and retried the setup,2026-06-21 11:47:00
+101,Cannot send an email,Email,Restarted the mail client and verified the account settings,2026-05-05 08:37:00
+102,Emails are not arriving,Email,Refreshed the mailbox and verified mail settings,2026-05-07 10:29:00
+103,Outlook is not receiving new messages,Email,Restarted Outlook and refreshed the mailbox,2026-05-09 12:46:00
+104,Email attachment will not open,Email,Verified the attachment and restarted the mail client,2026-05-11 14:17:00
+105,User cannot access mailbox,Email,Verified account access and restarted Outlook,2026-05-13 09:54:00
+106,Email messages are stuck in outbox,Email,Restarted Outlook and cleared the stuck message,2026-05-15 11:33:00
+107,Mailbox is not syncing,Email,Restarted Outlook and refreshed the mailbox,2026-05-17 13:08:00
+108,Cannot reply to email,Email,Restarted Outlook and verified mailbox settings,2026-05-19 15:42:00
+109,Email search is not finding messages,Email,Restarted Outlook and rebuilt the mailbox search index,2026-05-21 08:26:00
+110,User reports delayed emails,Email,Refreshed the mailbox and verified mail settings,2026-05-23 10:51:00
+111,Email will not send,Email,Restarted the mail client and verified the account settings,2026-05-25 12:38:00
+112,New emails are missing,Email,Refreshed the mailbox and verified mail settings,2026-05-27 14:14:00
+113,Outlook mailbox is not updating,Email,Restarted Outlook and refreshed the mailbox,2026-05-29 09:47:00
+114,Attachment cannot be opened,Email,Verified the attachment and restarted the mail client,2026-05-31 11:25:00
+115,Mailbox access is unavailable,Email,Verified account access and restarted Outlook,2026-06-02 13:49:00
+116,Messages remain in the outbox,Email,Restarted Outlook and cleared the stuck message,2026-06-04 15:18:00
+117,Email folder is not syncing,Email,Restarted Outlook and refreshed the mailbox,2026-06-06 08:43:00
+118,User cannot respond to messages,Email,Restarted Outlook and verified mailbox settings,2026-06-08 10:16:00
+119,Email search does not work,Email,Restarted Outlook and rebuilt the mailbox search index,2026-06-10 12:57:00
+120,Emails are arriving late,Email,Refreshed the mailbox and verified mail settings,2026-06-12 14:35:00
+121,Suspicious email reported,Security,Reported the message and removed it from the mailbox,2026-05-06 09:11:00
+122,Possible phishing message reported,Security,Reported the message and blocked the sender,2026-05-08 11:42:00
+123,Antivirus alert appeared,Security,Reviewed the alert and ran a security scan,2026-05-10 13:27:00
+124,User clicked a suspicious link,Security,Reported the incident and ran a security scan,2026-05-12 15:04:00
+125,Unexpected security warning appeared,Security,Reviewed the warning and verified endpoint security,2026-05-14 08:48:00
+126,Computer may have malware,Security,Ran a security scan and removed the detected threat,2026-05-16 10:35:00
+127,Suspicious attachment received,Security,Quarantined the message and reported the attachment,2026-05-18 12:52:00
+128,Security software is showing an alert,Security,Reviewed the alert and verified endpoint protection,2026-05-20 14:19:00
+129,User reports a phishing attempt,Security,Reported the message and blocked the sender,2026-05-22 09:56:00
+130,Endpoint protection warning appeared,Security,Ran a security scan and verified endpoint protection,2026-05-24 11:31:00
+131,User received a suspicious message,Security,Reported the message and removed it from the mailbox,2026-05-26 13:45:00
+132,Possible phishing email received,Security,Reported the message and blocked the sender,2026-05-28 15:22:00
+133,Antivirus detected a threat,Security,Reviewed the alert and ran a security scan,2026-05-30 08:39:00
+134,Employee clicked an unknown link,Security,Reported the incident and ran a security scan,2026-06-01 10:17:00
+135,Security warning appeared on computer,Security,Reviewed the warning and verified endpoint security,2026-06-03 12:44:00
+136,User suspects malware infection,Security,Ran a security scan and removed the detected threat,2026-06-05 14:08:00
+137,Suspicious file was received,Security,Quarantined the message and reported the attachment,2026-06-07 09:29:00
+138,Endpoint security alert appeared,Security,Reviewed the alert and verified endpoint protection,2026-06-09 11:53:00
+139,Employee reports phishing email,Security,Reported the message and blocked the sender,2026-06-11 13:36:00
+140,Antivirus software reported an issue,Security,Ran a security scan and verified endpoint protection,2026-06-13 15:11:00
+141,VPN connection failed,VPN,Restarted the VPN client and reconnected,2026-05-07 08:56:00
+142,VPN keeps disconnecting,VPN,Restarted the VPN client and reconnected,2026-05-09 10:43:00
+143,Cannot connect to company VPN,VPN,Restarted the VPN client and verified network access,2026-05-11 12:28:00
+144,VPN authentication failed,VPN,Restarted the VPN client and verified credentials,2026-05-13 14:05:00
+145,Remote VPN connection is unavailable,VPN,Restarted the VPN client and reconnected,2026-05-15 09:34:00
+146,VPN client will not connect,VPN,Restarted the VPN client and verified network access,2026-05-17 11:16:00
+147,VPN drops after connecting,VPN,Restarted the VPN client and reconnected,2026-05-19 13:51:00
+148,User cannot access resources through VPN,VPN,Reconnected the VPN and verified access,2026-05-21 15:27:00
+149,VPN connection times out,VPN,Restarted the VPN client and reconnected,2026-05-23 08:41:00
+150,VPN says connection failed,VPN,Restarted the VPN client and verified credentials,2026-05-25 10:58:00
+151,VPN is unavailable from home,VPN,Restarted the VPN client and reconnected,2026-05-27 12:35:00
+152,Remote user cannot establish VPN,VPN,Restarted the VPN client and verified network access,2026-05-29 14:12:00
+153,VPN disconnects during login,VPN,Restarted the VPN client and verified credentials,2026-05-31 09:46:00
+154,VPN will not authenticate,VPN,Restarted the VPN client and verified credentials,2026-06-02 11:24:00
+155,User cannot reach company resources over VPN,VPN,Reconnected the VPN and verified access,2026-06-04 13:39:00
+156,VPN connection drops repeatedly,VPN,Restarted the VPN client and reconnected,2026-06-06 15:17:00
+157,VPN client reports an error,VPN,Restarted the VPN client and verified network access,2026-06-08 08:52:00
+158,Remote connection to VPN failed,VPN,Restarted the VPN client and reconnected,2026-06-10 10:31:00
+159,VPN login keeps failing,VPN,Restarted the VPN client and verified credentials,2026-06-12 12:47:00
+160,VPN disconnects after a few minutes,VPN,Restarted the VPN client and reconnected,2026-06-14 14:26:00
+161,User cannot access shared drive,Access,Verified permissions and restored access,2026-05-08 09:03:00
+162,Employee cannot open a network folder,Access,Verified folder permissions and restored access,2026-05-10 11:37:00
+163,User needs access to a shared mailbox,Access,Verified permissions and granted the required access,2026-05-12 13:21:00
+164,Employee cannot access an application,Access,Verified permissions and restored application access,2026-05-14 15:46:00
+165,User is denied access to a shared resource,Access,Verified permissions and restored access,2026-05-16 08:29:00
+166,New employee needs application access,Access,Verified the request and granted the required access,2026-05-18 10:54:00
+167,User cannot access department files,Access,Verified permissions and restored folder access,2026-05-20 12:18:00
+168,Employee needs access to a shared folder,Access,Verified permissions and granted access,2026-05-22 14:41:00
+169,User receives access denied error,Access,Verified permissions and restored access,2026-05-24 09:26:00
+170,Application access request is not working,Access,Verified permissions and restored application access,2026-05-26 11:49:00
+171,User cannot open department share,Access,Verified permissions and restored access,2026-05-28 13:33:00
+172,Employee needs access to network files,Access,Verified folder permissions and restored access,2026-05-30 15:08:00
+173,User requests shared mailbox access,Access,Verified permissions and granted the required access,2026-06-01 08:44:00
+174,Application says access denied,Access,Verified permissions and restored application access,2026-06-03 10:27:00
+175,User cannot access shared resources,Access,Verified permissions and restored access,2026-06-05 12:56:00
+176,New employee needs access to an application,Access,Verified the request and granted the required access,2026-06-07 14:32:00
+177,Employee cannot open department files,Access,Verified permissions and restored folder access,2026-06-09 09:18:00
+178,User needs access to a shared drive,Access,Verified permissions and granted access,2026-06-11 11:45:00
+179,Access denied when opening folder,Access,Verified permissions and restored access,2026-06-13 13:09:00
+180,Employee cannot access required software,Access,Verified permissions and restored application access,2026-06-15 15:36:00
+181,User cannot access network files,Access,Verified folder permissions and restored access,2026-06-17 08:57:00
+182,Employee requests shared folder access,Access,Verified permissions and granted access,2026-06-19 10:34:00
+183,Shared mailbox access is unavailable,Access,Verified permissions and granted the required access,2026-06-21 12:11:00
+184,User receives an application access error,Access,Verified permissions and restored application access,2026-06-23 14:48:00
+185,Employee cannot access a shared resource,Access,Verified permissions and restored access,2026-06-25 09:25:00
+186,User needs access to department files,Access,Verified permissions and restored folder access,2026-06-27 11:52:00
+187,New employee cannot access required application,Access,Verified the request and granted the required access,2026-06-29 13:18:00
+188,User cannot open shared folder,Access,Verified permissions and restored access,2026-07-01 15:43:00
+189,Employee receives access denied message,Access,Verified permissions and restored access,2026-07-03 08:36:00
+190,User cannot access company application,Access,Verified permissions and restored application access,2026-07-05 10:59:00
+191,Shared drive access stopped working,Access,Verified permissions and restored access,2026-07-07 12:42:00
+192,Employee needs access to department share,Access,Verified folder permissions and restored access,2026-07-09 14:16:00
+193,User cannot access shared mailbox,Access,Verified permissions and granted the required access,2026-07-11 09:31:00
+194,Application access was denied,Access,Verified permissions and restored application access,2026-07-13 11:08:00
+195,User cannot access team files,Access,Verified permissions and restored folder access,2026-07-15 13:54:00
+196,Employee needs access to a network folder,Access,Verified permissions and granted access,2026-07-17 15:21:00
+197,User cannot open shared resources,Access,Verified permissions and restored access,2026-07-19 08:49:00
+198,Application access stopped working,Access,Verified permissions and restored application access,2026-07-21 10:26:00
+199,User receives access denied when opening files,Access,Verified permissions and restored access,2026-07-23 12:03:00
+200,Employee cannot access shared department folder,Access,Verified folder permissions and restored access,2026-07-25 14:37:00
